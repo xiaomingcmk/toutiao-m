@@ -31,6 +31,22 @@ export default {
     return {
       active: 0
     }
+  },
+  mounted () {
+    this.reActive()
+  },
+  methods: {
+    reActive () {
+      if (this.$route.path.startsWith('/qa')) {
+        this.active = 1
+      } else if (this.$route.path.startsWith('/video')) {
+        this.active = 2
+      } else if (this.$route.path.startsWith('/my')) {
+        this.active = 3
+      } else if (this.$route.name.startsWith('home')) {
+        this.active = 0
+      }
+    }
   }
 }
 </script>

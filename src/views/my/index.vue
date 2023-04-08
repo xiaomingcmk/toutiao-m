@@ -65,6 +65,7 @@ import { mapState } from 'vuex';
 import { getUserInfo } from '@/api/user'
 export default {
   name:'MyIndex',
+  props: {},
   data() {
     return {
       userInfo: {} // 用户信息

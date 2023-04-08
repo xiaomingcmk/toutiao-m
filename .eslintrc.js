@@ -23,6 +23,8 @@ module.exports = {
         "keyword-spacing": 0,
         "space-before-function-paren": 0,
         "key-spacing": 0,
-        "no-trailing-spaces": 0
+        "no-trailing-spaces": 0,
+        "vue/no-mutating-props": 0,
+        "no-undef": 0
     }
 }

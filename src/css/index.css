@@ -82,4 +82,5 @@ body {
 .page-nav-bar .van-nav-bar__title,
 .page-nav-bar .van-icon {
   color: #fff;
+  max-width: unset;
 }
