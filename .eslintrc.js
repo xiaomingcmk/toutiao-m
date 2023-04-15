@@ -25,6 +25,7 @@ module.exports = {
         "key-spacing": 0,
         "no-trailing-spaces": 0,
         "vue/no-mutating-props": 0,
-        "no-undef": 0
+        "no-undef": 0,
+        "no-tabs": 0
     }
 }
